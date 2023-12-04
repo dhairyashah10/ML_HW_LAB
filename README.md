@@ -1,17 +1,18 @@
 The below structure and file is available in my Google Drive **(https://drive.google.com/drive/folders/1u9WR8cQA12ilJEgNp6ZgHsaXF0UtA8mS?usp=drive_link)** which has been taken from the provided Github Link: **(https://github.com/csaw-hackml/CSAW-HackML-2020/tree/master/lab3)**
 **Lab 3**
-├── data 
-    └── cl
+```bash
+├── MLHW
+└── cl
         └── valid.h5 // this is clean validation data used to design the defense
         └── test.h5  // this is clean test data used to evaluate the BadNet
-    └── bd
+└── bd
         └── bd_valid.h5 // this is sunglasses poisoned validation data
         └── bd_test.h5  // this is sunglasses poisoned test data
 ├── models
     └── sunglasses_bd_net.h5
     └── sunglasses_bd_weights.h5
-├── architecture.py
-└── eval.py // this is the evaluation script
+```
+
 
 **Dependencies**
 Python 3.6.9
